@@ -1,0 +1,8 @@
+2024-04-12T08:45:16.170+0900 INFO Web Application Server started 8080 port.
+2024-04-12T08:45:29.028+0900 DEBUG New Client Connect! Connected IP : /0:0:0:0:0:0:0:1, Port : 51557
+2024-04-12T08:45:29.028+0900 DEBUG New Client Connect! Connected IP : /0:0:0:0:0:0:0:1, Port : 51556
+2024-04-12T12:34:13.326+0900 INFO Web Application Server started 8080 port.
+2024-04-12T12:34:19.363+0900 DEBUG New Client Connect! Connected IP : /0:0:0:0:0:0:0:1, Port : 55043
+2024-04-12T12:34:19.363+0900 DEBUG New Client Connect! Connected IP : /0:0:0:0:0:0:0:1, Port : 55042
+2024-04-12T12:34:22.296+0900 DEBUG New Client Connect! Connected IP : /0:0:0:0:0:0:0:1, Port : 55044
+2024-04-12T12:34:22.297+0900 DEBUG New Client Connect! Connected IP : /0:0:0:0:0:0:0:1, Port : 55045
