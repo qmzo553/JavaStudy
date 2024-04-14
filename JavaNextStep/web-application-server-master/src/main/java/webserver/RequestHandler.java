@@ -2,14 +2,22 @@ package webserver;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.Socket;
+import java.nio.file.Files;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import model.User;
+import util.HttpRequestUtils;
 
 public class RequestHandler extends Thread {
     Logger log = LogManager.getLogger(this.getClass().getSimpleName());
@@ -34,6 +42,34 @@ public class RequestHandler extends Thread {
                 }
                 System.out.println(line);
                 
+                String[] tokens = line.split(" ");
+                String method = tokens[0];
+                String request = tokens[1];
+                String version = tokens[2];
+
+                if(method.equals("GET")) {
+                    String path = request;
+                    String data;
+
+                    if(request.contains("?")) {
+                        int index = request.indexOf('?');
+                        path = request.substring(0, index);
+                        data = request.substring(index + 1);
+
+                        Map<String, String> parameters = HttpRequestUtils.parseQueryString(data);
+                        User user = new User(
+                            parameters.get("userId"),
+                            parameters.get("password"),
+                            parameters.get("name"),
+                            parameters.get("email"));
+                    }
+                    
+                    byte[] body = Files.readAllBytes(new File("./webapp" + path).toPath());
+                    
+                    DataOutputStream dos = new DataOutputStream(out);
+                    response200Header(dos, MAX_PRIORITY);
+                    responseBody(dos, body);
+                }
                 line = br.readLine();
             }
 
