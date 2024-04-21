@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="RoundButtons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo/awt-1.1/lightweight/RoundButtons/ExampleApplet.zip!/" />
+      <root url="jar://$PROJECT_DIR$/demo/awt-1.1/lightweight/RoundButtons/ExampleApplet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Spinner">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo/awt-1.1/lightweight/Spinner/ExampleApplet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo/awt-1.1/lightweight/Spinner/ExampleApplet.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

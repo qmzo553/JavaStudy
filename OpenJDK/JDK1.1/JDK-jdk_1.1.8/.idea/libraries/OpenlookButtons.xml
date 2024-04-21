@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="OpenlookButtons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo/awt-1.1/lightweight/OpenlookButtons/ExampleApplet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo/awt-1.1/lightweight/OpenlookButtons/ExampleApplet.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
