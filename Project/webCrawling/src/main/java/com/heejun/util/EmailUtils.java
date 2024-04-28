@@ -1,4 +1,4 @@
-package com.heejun.mail;
+package com.heejun.util;
 
 import jakarta.mail.*;
 import jakarta.mail.internet.InternetAddress;
@@ -6,7 +6,7 @@ import jakarta.mail.internet.MimeMessage;
 
 import java.util.Properties;
 
-public class EmailSender {
+public class EmailUtils {
 
     public static void sendEmail(String to, String from, String host, int port, final String username, final String password, String subject, String text) {
 

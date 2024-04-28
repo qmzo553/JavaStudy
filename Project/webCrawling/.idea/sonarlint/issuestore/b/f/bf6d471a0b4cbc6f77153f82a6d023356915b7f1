@@ -1,0 +1,14 @@
+
+	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾‚¢ò1J$f76623b9-696a-4f28-ae9c-c2326685cafd
+	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾‚¢ò1J$46dcf805-98c6-4266-87b5-3eb3c2e5b8c2
+	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾‚¢ò1J$ce803827-98d5-4f1b-bc46-7f63fa19effa
+	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘¾‚¢ò1J$de58fddc-db56-4d19-b34a-194a51dd2506
+	java:S112q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8“¾‚¢ò1J$9a3e1bf4-328c-46f6-9ddc-5e0f7b541531
+¡
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(áä•’8•¾‚¢ò1J$e1afbade-3252-49fd-aee7-15a7c110150c
+¡
+java:S1488^"^Immediately return this expression instead of assigning it to the temporary variable "result".(áä•’8•¾‚¢ò1J$36669409-654f-4ada-a090-2c1c8ceb0598
+¡
+java:S1488n"^Immediately return this expression instead of assigning it to the temporary variable "result".(áä•’8•¾‚¢ò1J$20ef6c13-1c23-45a9-9340-3e0e23484c70
+w
+java:S2695\"/This "PreparedStatement" only has 2 parameters.(‡èáªøÿÿÿÿ8Ÿ¾‚¢ò1J$089e6688-de82-46f1-b985-52fcf78ab890
