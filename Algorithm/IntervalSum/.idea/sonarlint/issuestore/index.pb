@@ -15,3 +15,9 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 D
 SegmentTreeMain.java,6/3/630bca2957fe630b87f03ef3abf1b18901d6dc55
+;
+Q11660.java,d/b/db366748c671df2da180fd84b5b5365e2dbcd231
+;
+Q19951.java,1/d/1d9a60aa8bfc3f26ca6942a46916039273b57675
+;
+Q17232.java,f/2/f2f6a25f6b24596a63b05a96151cdcc5ede2e7ca
