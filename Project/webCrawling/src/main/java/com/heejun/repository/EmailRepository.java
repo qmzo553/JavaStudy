@@ -8,13 +8,13 @@ import java.util.Optional;
 
 public interface EmailRepository {
 
-    int save(Connection connection, Email email);
+    int save(Email email);
 
-    Optional<Email> findByEmail(Connection connection, String email);
+    Optional<Email> findByEmail(String email);
 
-    List<Email> findAll(Connection connection);
+    List<Email> findAll();
 
-    int update(Connection connection, Email email);
+    int update(Email email);
 
-    int deleteByEmail(Connection connection, String email);
+    int deleteByEmail(String email);
 }

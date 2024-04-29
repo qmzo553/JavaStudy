@@ -3,27 +3,12 @@ package com.heejun.util;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.time.Duration;
 
 public class DbUtils {
 
     public DbUtils() {
         throw new IllegalStateException("Utility class");
-    }
-
-    public static Connection getConnection() {
-        Connection connection = null;
-
-        try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/web_crawling_db", "root", "qkrgmlwns3");
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-
-        return connection;
     }
 
     private static final DataSource DATASOURCE;

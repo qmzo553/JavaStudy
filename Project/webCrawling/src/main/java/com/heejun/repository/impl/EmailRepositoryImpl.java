@@ -2,6 +2,7 @@ package com.heejun.repository.impl;
 
 import com.heejun.domain.Email;
 import com.heejun.repository.EmailRepository;
+import com.heejun.util.DbUtils;
 import lombok.extern.slf4j.Slf4j;
 
 import java.sql.Connection;
@@ -16,11 +17,12 @@ import java.util.Optional;
 public class EmailRepositoryImpl implements EmailRepository {
 
     @Override
-    public int save(Connection connection, Email email) {
+    public int save(Email email) {
 
         String sql = "insert into web_crawling_email (name, email, created_at) values (?, ?, ?)";
 
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+        try (Connection connection = DbUtils.getDataSource().getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
             preparedStatement.setString(1, email.getName());
             preparedStatement.setString(2, email.getEmail());
@@ -34,11 +36,12 @@ public class EmailRepositoryImpl implements EmailRepository {
     }
 
     @Override
-    public Optional<Email> findByEmail(Connection connection, String email) {
+    public Optional<Email> findByEmail(String email) {
 
         String sql = "select name, email, created_at from web_crawling_email where email = ?";
 
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+        try (Connection connection = DbUtils.getDataSource().getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
             preparedStatement.setString(1, email);
 
@@ -58,12 +61,13 @@ public class EmailRepositoryImpl implements EmailRepository {
     }
 
     @Override
-    public List<Email> findAll(Connection connection) {
+    public List<Email> findAll() {
 
         List<Email> emails = new ArrayList<>();
         String sql = "select name, email, created_at from web_crawling_email";
 
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+        try (Connection connection = DbUtils.getDataSource().getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 while(resultSet.next()) {
@@ -82,11 +86,12 @@ public class EmailRepositoryImpl implements EmailRepository {
     }
 
     @Override
-    public int update(Connection connection, Email email) {
+    public int update(Email email) {
 
         String sql = "update web_crawling_email set name = ? where email = ?";
 
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+        try (Connection connection = DbUtils.getDataSource().getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
             preparedStatement.setString(1, email.getName());
             preparedStatement.setString(4, email.getEmail());
@@ -99,11 +104,12 @@ public class EmailRepositoryImpl implements EmailRepository {
     }
 
     @Override
-    public int deleteByEmail(Connection connection, String email) {
+    public int deleteByEmail(String email) {
 
         String sql = "delete from web_crawling_email where email = ?";
 
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+        try (Connection connection = DbUtils.getDataSource().getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
             preparedStatement.setString(1, email);
 
