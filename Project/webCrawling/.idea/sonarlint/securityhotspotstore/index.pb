@@ -3,10 +3,6 @@ R
 "src/main/java/com/heejun/Main.java,b/1/b138757631ed50da89adf40e1cfbf3f0f8d3cdb8
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-^
-.src/main/java/com/heejun/mail/EmailSender.java,2/9/29b8cb69d07708e5e06591f8f5d5c5ce1340352e
-X
-(src/main/java/com/heejun/repository.java,3/1/316a29e0c8e376bc438ce6df9046e6501c5582e2
 h
 8src/main/java/com/heejun/repository/emailRepository.java,9/5/9593e9eb3f5a33d7353691ef6dab5ab1f6b64423
 S
@@ -27,8 +23,6 @@ h
 8src/main/java/com/heejun/repository/EmailRepository.java,2/b/2bce58415b14f1edd18b43860111b1e1ec8678c7
 Z
 *src/main/java/com/heejun/util/DbUtils.java,b/6/b6690a9e5eeb6458edafdecb3400dc8bc465fc9b
-]
--src/main/java/com/heejun/mail/EmailUtils.java,4/9/499f454daeabaded4e9bd49e75b7aea851ec4537
 ]
 -src/main/java/com/heejun/util/EmailUtils.java,0/c/0c5656a43c065e09d3ff59870e4baa92a7308306
 Å

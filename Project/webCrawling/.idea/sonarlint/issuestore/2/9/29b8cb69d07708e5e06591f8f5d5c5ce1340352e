@@ -1,7 +1,0 @@
-
-	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8‡¨¨ς1J$dd22c0a0-1eab-49ff-9a61-55a948d460b2
-~	java:S107"<Method has 8 parameters, which is greater than 7 authorized.(Σ³©8¨¨ς1J$d70464d2-8f23-400e-b104-790c4c680535
-}
-java:S1118	":Add a private constructor to hide the implicit public one.(η°½ρ8¨¨ς1J$5c8c3b57-9443-41d7-be40-5b42b34d424d
-}
-java:S1161":Add the "@Override" annotation above this method signature(‡θϊΧ8’¨¨ς1J$d7d38235-772e-4399-9300-cb67123f03d3
