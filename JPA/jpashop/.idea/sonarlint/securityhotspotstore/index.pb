@@ -36,3 +36,17 @@ G.idea/sonarlint/issuestore/2/b/2b986eb5873d1c2b5faf2dabd0887972e10110fe,2/7/27
 Q.idea/sonarlint/securityhotspotstore/5/5/55c4d6b6bbe6f1c5fb453e4c15e4772ba80c56e6,5/9/5926039c3174908697a4eed4faf94ee66a0e9506
 Å
 Q.idea/sonarlint/securityhotspotstore/0/8/08859390eb7b54db2693bed66bd7083bcc952142,d/9/d93661ddfe75433bd300615f6bfaf8ef86ef7b61
+a
+1src/main/java/com/nhnacademy/domain/Delivery.java,1/5/1538d9fbd3f688029ba8f27891f9db2c53346f76
+a
+1src/main/java/com/nhnacademy/domain/Category.java,5/4/547c2cb2388b1e5ef5753a54bd39924f856344a5
+g
+7src/main/java/com/nhnacademy/domain/DeliveryStatus.java,6/0/606ae97b1774770994e32953e0175ae18a1735e7
+^
+.src/main/java/com/nhnacademy/domain/Album.java,f/c/fcfea53c9a42114940d13bb95d78d99193ad29f5
+]
+-src/main/java/com/nhnacademy/domain/Book.java,f/3/f3a3315a00dde1eb4588306eddfff064ca9916f4
+^
+.src/main/java/com/nhnacademy/domain/Movie.java,8/b/8b8ac8c3a9643999c130009662e877c055eb34dc
+c
+3src/main/java/com/nhnacademy/domain/BaseEntity.java,d/9/d9e6d4dc9807b27087d72be1bfb51475422af497

@@ -1,5 +1,9 @@
 
-
-java:S1128"9Remove this unused import 'com.nhnacademy.domain.Member'.(”®ύÿÿÿÿ8•Ι‹ό1J$80e44c9b-0a50-4d98-bfba-35a1940bf360
-s
-java:S1128	"+Remove this unused import 'java.util.List'.(Υλ±Δψÿÿÿÿ8•Ι‹ό1J$a9ae3566-1c65-47ea-bc99-cd4a8d4ae993
+[
+java:S1128"9Remove this unused import 'com.nhnacademy.domain.Member'.(”®ύÿÿÿÿ8ψ™Πρό1
+Z
+java:S1128"8Remove this unused import 'com.nhnacademy.domain.Order'.(―ςυϋÿÿÿÿ8ψ™Πρό1
+^
+java:S1128"<Remove this unused import 'com.nhnacademy.domain.OrderItem'.(ά­ο¤ώÿÿÿÿ8ψ™Πρό1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Υλ±Δψÿÿÿÿ8ψ™Πρό1
