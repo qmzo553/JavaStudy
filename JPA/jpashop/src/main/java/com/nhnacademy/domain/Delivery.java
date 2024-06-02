@@ -1,8 +1,6 @@
 package com.nhnacademy.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Delivery extends BaseEntity {
@@ -14,4 +12,7 @@ public class Delivery extends BaseEntity {
     private String street;
     private String zipcode;
     private DeliveryStatus deliveryStatus;
+
+    @OneToOne(mappedBy = "delivery", fetch = FetchType.LAZY)
+    private Order order;
 }

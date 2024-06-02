@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2773481b-0309-440a-9059-88a7ea4162db" name="Changes" comment="2024.05.29">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Movie.java" afterDir="false" />
+    <list default="true" id="2773481b-0309-440a-9059-88a7ea4162db" name="Changes" comment="2024.05.31">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08859390eb7b54db2693bed66bd7083bcc952142" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08859390eb7b54db2693bed66bd7083bcc952142" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4206721cc2fe0a63188839e0f181a6c5fb46615d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4206721cc2fe0a63188839e0f181a6c5fb46615d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82f8567f8051dbdfe2908b84f6e3e695c2bda0d9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82f8567f8051dbdfe2908b84f6e3e695c2bda0d9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Delivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nhnacademy/domain/OrderItem.java" afterDir="false" />
     </list>
@@ -123,7 +112,7 @@
       <updated>1716936391883</updated>
       <workItem from="1716936392885" duration="3830000" />
       <workItem from="1716944478558" duration="3539000" />
-      <workItem from="1717074283673" duration="9560000" />
+      <workItem from="1717074283673" duration="18470000" />
     </task>
     <task id="LOCAL-00001" summary="2024.05.29">
       <option name="closed" value="true" />
@@ -133,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717022856931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2024.05.31">
+      <option name="closed" value="true" />
+      <created>1717222855240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717222855240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024.05.29" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.05.29" />
+    <MESSAGE value="2024.05.31" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.05.31" />
   </component>
 </project>
