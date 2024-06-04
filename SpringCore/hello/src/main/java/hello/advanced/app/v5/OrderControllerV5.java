@@ -1,6 +1,5 @@
 package hello.advanced.app.v5;
 
-import hello.advanced.trace.callback.TraceCallback;
 import hello.advanced.trace.callback.TraceTemplate;
 import hello.advanced.trace.logtrace.LogTrace;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +20,7 @@ public class OrderControllerV5 {
     @GetMapping("/v5/request")
     public String request(String itemId) {
 
-        template.excute("OrderController.request()", () -> {
+        template.execute("OrderController.request()", () -> {
             orderService.orderItem(itemId);
             return "ok";
         });
